@@ -1,0 +1,25 @@
+### Create
+POST  http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title":"sedia",
+    "content":"sedia da cucina"
+}
+
+### Read
+GET http://localhost:3000/posts
+Content-Type: application/json
+
+### Update 
+PUT http://localhost:3000/posts/4
+Content-Type: application/json
+
+{
+   "title":"poltrona",
+    "content":"poltrona rossa" 
+}
+
+### Delete
+DELETE http://localhost:3000/posts/3
+Content-Type: application/json
